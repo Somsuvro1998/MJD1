@@ -20,7 +20,7 @@ pipeline {
     }
     post { 
         always { 
-            emailext body: 'The Pipeline Status for MJD1', subject: 'Pipeline Status', to: 'palz.somsuvro@gmail.com'
+            emailext body: 'Please find the build url http://localhost:8080/job/MJD1_Pipeline/', subject: 'Pipeline Status', to: 'palz.somsuvro@gmail.com'
         }
     }
 }
